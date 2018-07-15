@@ -1,22 +1,16 @@
 # fibre_orientation
-Finding 3d fibre orientations from a stack of 2d images
 
-## line_launcher:
+Individual project. Algorithms for finding 3d fibre orientations from a stack of 2d images. Methods explored include - 
 
-Code for simulating the parameters such as length of bungee cord and spring constant required to launch a payload to certain trajectory. Part of a group project where we designed and made the line launcher.
+- Principal Component Analysis:
+- Weighted Vector Summation
+- Gradient orientation filters
+- Fourier transform based approach
 
-![Screenshot](https://i.imgur.com/Rt1BshP.png)
+The orientation of fibres was to be presented as a vector field. Mathematica was used to implement the algorithms.
 
+Mathematica notebooks are given in mathematica_notebooks folder. For selected sample code, look in the appendix of the report.pdf
 
-## aerofoil_optimization:
+For a quick overview of the project, look at poster.pdf
 
-Defining parametric aerofoil shape using bezier curves and optimizing the shape for lift. Made use of an external script called xFoil.
-
-![Screenshot](https://i.imgur.com/z03E8vk.png)
-
-An example aerofoil shape defined using weighted bezier curves
-
-
-## misc_labs:
-
-Labs and trainings which involved writing miscellenaous functions to solve specific problems.
+![Screenshot](https://i.imgur.com/xvYXYlw.png)
